@@ -10,9 +10,7 @@
 		{
 			return "prueba path";
 		}
-		{
-			# code...
-		}
+		
 	}
 
 ?>

@@ -1,5 +1,3 @@
-<?php include_once("PHP/gestor.php");?>
-
 <html>
 <head>
 	<title>Ejercicio 35</title>
@@ -11,10 +9,9 @@
 
 <lavel> Cargue un archivo para copiar en</lavel>	
 
-<lavel>	
-<?php 
+<?php  include_once("PHP/gestor.php");
 $path=Gestor::ObtenerPath();
-echo $path; 
+echo "$path"; 
 ?>	
 
 <br> </br>
